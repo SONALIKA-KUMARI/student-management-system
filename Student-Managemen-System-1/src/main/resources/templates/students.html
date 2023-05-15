@@ -70,8 +70,11 @@
             <td>
              <a th:href = "@{/students/edit/{id}(id= ${student.id})}" 
              class=" btn btn-primary"> Update </a>
-            
-            </td>
+          
+             <a th:href = "@{/students/{id}(id= ${student.id})}" 
+             class=" btn btn-danger"> Delete </a>
+           
+          </td>
             
        </tr>
      
