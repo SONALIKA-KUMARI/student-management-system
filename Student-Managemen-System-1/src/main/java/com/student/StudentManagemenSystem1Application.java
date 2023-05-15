@@ -8,7 +8,7 @@ public class StudentManagemenSystem1Application {
 
 	public static void main(String[] args) {
 		SpringApplication.run(StudentManagemenSystem1Application.class, args);
-		System.out.println("sonalika");
+		System.out.println("sonalika it running");
 	}
 
 }
