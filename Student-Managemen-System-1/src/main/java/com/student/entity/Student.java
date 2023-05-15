@@ -11,8 +11,7 @@ import jakarta.persistence.Table;
 @Table(name="STUDENTS")
 public class Student {
 
-	
-		@Id
+        @Id
 		@GeneratedValue(strategy = GenerationType.IDENTITY)
 		private long id;
 		@Column(name="first_name", nullable=false)
